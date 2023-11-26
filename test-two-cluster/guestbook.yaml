@@ -10,8 +10,8 @@ spec:
     path: registry/test-two-cluster/components/guestbook
     targetRevision: HEAD
   destination:
-    server: https://kubernetes.default.svc
-    namespace: default
+    server: ''
+    namespace: ''
   syncPolicy:
     automated:
       prune: true
