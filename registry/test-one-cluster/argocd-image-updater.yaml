@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:eitco/appsOfapps.git
-    path: registry/jenkins-prod-cluster/components/argocd-image-updater
+    repoURL: https://github.com/PatrickLaabs/cluster-1.git
+    path: registry/test-one-cluster/components/argocd-image-updater
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
